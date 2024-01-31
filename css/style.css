@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+.meal{
+    cursor: pointer;
+
+}
+.meal-layer{
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: top 0.5s;
+}
+
+.meal:hover .meal-layer{
+  top: 0%;
+}
+.logo{
+    width: 50px;
+}
+
+li{
+    list-style: none;
+    color: white;
+}
+.nav-tab{
+    background-color: black;
+}
+.side-nav-menu{
+    z-index: 9999;
+}
+
+i , li{
+    cursor: pointer;
+}
+.nav-footer{
+    color: white;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.alert{
+    width: fit-content;
+}
